@@ -1,11 +1,11 @@
 # Site settings
-author: Winston  Chung
-title: 
+author: Winston Chung
+title: Can anyone learn to code?
 header-img: img/home-bg.png
 email: 18.chung.winston@ctkprep.org
-copyright_name: Winston  Chung
+copyright_name: Winston Chung
 description: > # this means to ignore newlines until "baseurl:"
-  
+  journey through back aches
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  AcnologiatheEnd
