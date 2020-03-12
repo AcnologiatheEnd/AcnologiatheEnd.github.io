@@ -1,0 +1,17 @@
+---
+layout: post
+title:      "git push -f"
+date:       2020-03-12 20:43:18 +0000
+permalink:  git_push_-f
+---
+
+
+Hopefully you'll never have this problem. 
+
+What I did was create rails app and a remote repository separetly instead of cloning the repository. My project was almost complete; but, I've never pushed any of the code since creating it; not the best of choices thinking back now.  As a reward, I ran into to some issues. git did provide some tips on resolving this issue but it wasn't going to save me this time. 
+
+After doing some research and trying some commands that, now that I'm looking back at, could've made things much worse, I found this cool command on stack overflow. 
+
+What '**git push -f'** does is force push your local repository to your remote repository that have set up. So, any file you have in your remote repository that has the same name as the file in your local repository will be overwritten by the file from your local repository.
+
+While this is a cool feature and saved my buttom, it wouldn't be suitable for normal use, so use carefully. It worked perfectly for me as I didn't have anything stored in my remote repository except for the readme and license. Maybe if I deleted the readme and license it wouldn't have had any conflict. I guess I'll find out some other time. Happy coding all, if you can atleast.
